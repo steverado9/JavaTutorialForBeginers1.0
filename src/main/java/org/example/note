@@ -1,0 +1,22 @@
+    What is an array?
+An array is a variable that can store multiple values.
+The index in which array values are stored are called position.
+The index of an array starts from zero(0).
+note: you can only store values with the same data types.
+    How to declare an array and initialize an array
+datatype[] arrayName = {};
+    or
+int arrayName[] = {};
+    To access an element in an array
+arrayName[elementIndex];
+
+    What are access modifiers
+Access allows you to access methods, class, attributes.
+when you don't declare an access modifier, the default access will be in the same class and same package
+    Types of Access Modifiers
+Public: When you use this access modifier, it means the variable, class or method is visible everywhere.
+private: This is only accessible with the class
+protected: Restricts the visibility to the class, package and subclass
+note: Good practice always declare your attribute variable as private of protected
+You give that public access to your getters and setters
+
