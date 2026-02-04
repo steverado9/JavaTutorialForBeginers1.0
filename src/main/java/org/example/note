@@ -20,3 +20,32 @@ protected: Restricts the visibility to the class, package and subclass
 note: Good practice always declare your attribute variable as private of protected
 You give that public access to your getters and setters
 
+    Polymorphism in Java
+Polymorphism is the ability of an object to have different forms.
+
+    What is an abstract class
+An abstract class is a class that cannot be instantiated.
+Meaning you cannot make an object of this class.
+This can be done by adding the keyword "abstract" as a modifier to the class
+This means we are restricting the access of the class but we an access the content of an abstract class if we create a child(subclass) of the abstract class.
+    What is an abstract method
+An abstract method is implemented by the subclass inheriting the abstract class
+Meaning an abstract method is empty(it has no body) and we can define the content of the abstract method in the subclass.
+we can make a method abstract by adding the "abstract" keyword in front of the method.
+    Concrete class
+This is almost the opposite of an abstract class.
+If abstract class cannot be instantiated, the concrete class can be instantiated.
+You just need to remove the keyword "abstract" to make a class concrete.
+
+    Java Interfaces
+Interface is the same as an abstract class
+That is, interface is another way to handle abstraction.
+An interface can also not be instantiated.
+To declare an interface, we use the keyword "interface", the name of the interface and curly braces.
+interface methods are abstract by nature, you don't need to add the abstract keyword.
+To inherit from an interface, we use the keyword "implement".
+
+    Recursion in java
+Recursion is when a method is called inside its own body.
+That is a method that calls himself.
+example of this is used in solving factoria.
