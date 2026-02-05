@@ -49,3 +49,27 @@ To inherit from an interface, we use the keyword "implement".
 Recursion is when a method is called inside its own body.
 That is a method that calls himself.
 example of this is used in solving factoria.
+
+     Arraylist in Java
+problem with arrays
+-We have to provide the initial size of the array.
+-The size of the array is fixed.
+    What is an arraylist
+Arraylist: This helps us use and maintain a simple array and the size of the array is dynamic.
+
+    LinkedList
+A linkedlist is also a type of list that holds multiple values
+
+    Difference between LinkedList vs ArrayList in Java
+-LinkedList element Insertion is faster compared to ArrayList.
+-ArrayList search operation is fast compared to the LinkedList search operation.
+-LinkedList doesn't provide Random or index based access and you need to iterate over linked list to retrieve any element.
+-Linkedlist element deletion is faster compared to ArrayList.
+-Linkedlist has more memory overhead than ArrayList because in ArrayList, each index only holds actual object
+but in case of linkedlist, each node holds both data and address of next and previous node.
+
+    HashSet in Java
+HashSet belongs to the set category
+A set only contains unique element, does not accept duplicate.
+
+     Catching and Handling Exceptions in Java using Try Catch Blocks
