@@ -73,3 +73,15 @@ HashSet belongs to the set category
 A set only contains unique element, does not accept duplicate.
 
      Catching and Handling Exceptions in Java using Try Catch Blocks
+Exception: This is an event that occurs during the execution of a program, that can disrupt the normal flow of the program's instruction.
+We can catch/handle exceptions using try catch block.
+If we don't know the type of exception we are handling , we just use the type "Exception" in the catch block
+-You can add multiple catch block to a try block.
+    Java Finally block
+We use the finally block whenever we have the try catch block
+This ensures that the finally block is executed even if an unexpected exception occurs or not.
+
+    Using Date & Time + formatting Date using SimpleDateFormat
+To get the current date and time,
+Create an object of Date class and call toString method on it.
+google simpledateformat to see the alphabets used for different types of date format.

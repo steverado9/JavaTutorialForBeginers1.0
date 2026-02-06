@@ -1,0 +1,19 @@
+package org.example.Exceptions;
+
+public class Demo {
+    public static void main(String[] args) {
+        int b[] = new int[2];
+
+        try {
+//            int a = 100/0;
+            System.out.println(b[3]);
+        } catch (ArithmeticException e) {
+            System.out.println(e);
+        } catch (Exception e) {
+            System.out.println("catch called");
+            System.out.println(e);
+        } finally {
+            System.out.println("Finally called");
+        }
+    }
+}
